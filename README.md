@@ -4,8 +4,13 @@ Homebrew tap for [Hiroba](https://github.com/ludo-technologies/hiroba), an
 open-source, always-on presence app for remote teams.
 
 ```bash
-brew install --cask ludo-technologies/hiroba/hiroba
+brew tap ludo-technologies/hiroba
+brew trust ludo-technologies/hiroba
+brew install --cask hiroba
 ```
+
+Homebrew 6 refuses to load a cask from a third-party tap until you trust it; on
+older versions the `brew trust` line is unnecessary.
 
 The cask installs the signed and notarized macOS build (Apple Silicon and Intel)
 from the Hiroba GitHub Releases page.
