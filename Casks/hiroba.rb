@@ -1,9 +1,9 @@
 cask "hiroba" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.37"
-  sha256 arm:   "a3459c8a7604586575724ad75c6333357abc3e16311a063272ec64db1576374e",
-         intel: "192b14b2b43956886249515d20ebe92a9c4591efcad195763cf525b40d70af89"
+  version "0.1.38"
+  sha256 arm:   "c016a945ccd84ed7a1f61ebd2c4fa76a5f5cf6ae8b0105c6078a2c515bc2b88a",
+         intel: "69b60de11052d8978764d4956b8d0b26cace5df78cd28d4f591f245391a16540"
 
   url "https://github.com/ludo-technologies/hiroba/releases/download/v#{version}/Hiroba_#{version}_#{arch}.dmg"
   name "Hiroba"
